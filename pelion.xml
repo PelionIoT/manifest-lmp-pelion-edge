@@ -7,10 +7,10 @@
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="dev" />
+           revision="refs/tags/2.2.0" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="dev" />
+           revision="refs/tags/2.2.0" />
 </manifest>
