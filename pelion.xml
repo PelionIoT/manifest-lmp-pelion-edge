@@ -4,13 +4,25 @@
   <remote fetch="https://github.com/PelionIoT"
           name="PelionIoT" />
 
+  <remote name="github" fetch="ssh://git@github.com/" />
+
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="dev" />
+           revision="add-parsec-support" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="dev" />
+           revision="add-parsec-support" />
+
+  <project name="meta-rust"
+           path="layers/meta-rust"
+           revision="9a035fe27262bb23676da9f9f583e3ee39b0a377"
+           remote="github" />
+
+   <project name="meta-parsec"
+            path="layers/meta-parsec"
+            revision="dev"
+            remote="github" />
 </manifest>
