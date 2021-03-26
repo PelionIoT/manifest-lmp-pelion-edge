@@ -25,5 +25,5 @@
   <project name="meta-parsec"
            path="layers/meta-parsec"
            remote="PelionIoT"
-           revision="b45ce95e82fa4c2c95d06115994ab3a7fb42427f" />
+           revision="bc97929a87e50dc585d38c60579e3ccf85d474db" />
 </manifest>
