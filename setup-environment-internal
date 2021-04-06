@@ -139,7 +139,7 @@ export PATH=$(echo "$PATH" |
 export BB_ENV_EXTRAWHITE="MACHINE DISTRO TCLIBC TCMODE GIT_PROXY_COMMAND \
         http_proxy ftp_proxy https_proxy all_proxy ALL_PROXY no_proxy \
         SSH_AGENT_PID SSH_AUTH_SOCK BB_SRCREV_POLICY SDKMACHINE \
-        BB_NUMBER_THREADS"
+        BB_NUMBER_THREADS BB_LOGCONFIG BB_CONSOLELOG"
 
 mkdir -p "${BUILDDIR}"/conf && cd "${BUILDDIR}"
 if [ -f "conf/auto.conf" ]; then
@@ -167,8 +167,8 @@ if [ ! -f "conf/keys/dev.key" -a ! -f "conf/keys/dev.crt" ]; then
     ln -sf "${MANIFESTS}"/conf/keys/dev.crt conf/keys/dev.crt
 fi
 # Link default iMX HAB4 development keys and certificate if not set by the user
-if [ ! -e "conf/imx_hab4" ]; then
-    ln -sf "${MANIFESTS}"/conf/imx_hab4 conf/keys/imx_hab4
+if [ ! -e "conf/keys/imx_hab4" ]; then
+    ln -sf ${OEROOT}/tools/lmp-tools/security/imx_hab4 conf/keys/imx_hab4
 fi
 ln -sf "${MANIFESTS}"/conf/bblayers.conf conf/bblayers.conf
 ln -sf "${MANIFESTS}"/conf/bblayers-base.inc conf/bblayers-base.inc

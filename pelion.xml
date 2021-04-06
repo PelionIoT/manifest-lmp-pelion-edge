@@ -4,13 +4,26 @@
   <remote fetch="https://github.com/PelionIoT"
           name="PelionIoT" />
 
+  <remote fetch="https://github.com/"
+          name="github" />
+
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="refs/tags/2.2.0" />
+           revision="refs/tags/2.3.0" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="refs/tags/2.2.0" />
+           revision="refs/tags/2.3.0" />
+
+  <project name="meta-rust/meta-rust"
+           path="layers/meta-rust"
+           remote="github"
+           revision="9a035fe27262bb23676da9f9f583e3ee39b0a377" />
+
+  <project name="meta-parsec"
+           path="layers/meta-parsec"
+           remote="PelionIoT"
+           revision="337ca136c6ac785433ccec56fa1cacbe956049b0" />
 </manifest>

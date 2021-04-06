@@ -5,15 +5,15 @@
 
   <default remote="lmp-mirrors" revision="master" sync-j="4"/>
 
-  <project name="bitbake" revision="fec2b85689bba1d26ad6f376bc11cc29bb27cbe5"/>
+  <project name="bitbake" revision="0a3bf681530bd63fc0036ca81ef868ab53fde56c"/>
   <project name="lmp-tools" path="tools/lmp-tools" remote="fio">
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="meta-lmp" path="layers/meta-lmp" remote="fio" revision="3beb1d4791967ea4f1123dea519fb29574d102c2"/>
-  <project name="meta-clang" path="layers/meta-clang" revision="1dfc3a905ad0fed7a3b300aa51153365f9950fe7"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" revision="b9dcf17700014dec679307dc1247882dccd439ca"/>
-  <project name="meta-security" path="layers/meta-security" revision="4583ab9b08c1c582a9d7e8ab70d6685ed4720799"/>
-  <project name="meta-updater" path="layers/meta-updater" revision="075ca14b8800dcae1c2532389e5dd219f6e7c2dd"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" revision="9fe997733d9bad4ac24dfb41e91a0e06b9e82791"/>
-  <project name="openembedded-core" path="layers/openembedded-core" revision="af428fa2432279d24cdf2a62f9dee91b30d46c3a"/>
+  <project name="meta-lmp" path="layers/meta-lmp" remote="fio" revision="b70cd394819915752d3ce7c066dafff75d9126cd"/>
+  <project name="meta-clang" path="layers/meta-clang" revision="04a1194c78563524659f27941304e564956792b1"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" revision="945f062ff098dc9c8ba8d22c5eef88adec60730d"/>
+  <project name="meta-security" path="layers/meta-security" revision="adcd7c43717274e6274a98133db5c2a4314dac97"/>
+  <project name="meta-updater" path="layers/meta-updater" revision="070d291c0e79f58f2c23ef43740ea77fe2d952a6"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" revision="a4439b76db06bdd747c6765ec184a76f6ec18e88"/>
+  <project name="openembedded-core" path="layers/openembedded-core" revision="f74d1ea0189d7d6608ab90ea9a111d641bb417fd"/>
 </manifest>
