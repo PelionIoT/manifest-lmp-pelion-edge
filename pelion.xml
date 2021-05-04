@@ -10,7 +10,7 @@
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="a3e2e8f0ae073ff7a7dbb8545801d8c72791c918" />
+           revision="986690da919465cd2ab2057f20ecb482c1ed62a8" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
