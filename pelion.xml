@@ -1,27 +1,23 @@
 <manifest>
   <include name="default.xml" />
-
   <remote fetch="https://github.com/PelionIoT"
           name="PelionIoT" />
-
+  <remote fetch="https://github.com/TapaniPuhakka"
+          name="tapani_fixes" />
   <remote fetch="https://github.com/"
           name="github" />
-
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
            revision="986690da919465cd2ab2057f20ecb482c1ed62a8" />
-
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="464e9d1ca9f4df7cf8d7108cd865dd380e2a7d48" />
-
+           revision="b63d9e5b0e6be30f2d1bf4ab4920bf01372dc77d" />
   <project name="meta-rust/meta-rust"
            path="layers/meta-rust"
            remote="github"
            revision="9a035fe27262bb23676da9f9f583e3ee39b0a377" />
-
   <project name="meta-parsec"
            path="layers/meta-parsec"
            remote="PelionIoT"
