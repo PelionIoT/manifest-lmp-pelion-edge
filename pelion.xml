@@ -12,10 +12,10 @@
            remote="PelionIoT"
            revision="986690da919465cd2ab2057f20ecb482c1ed62a8" />
 
-  <project name="meta-pelion-edge"
+  <project name="kivaisan/meta-pelion-edge"
            path="layers/meta-pelion-edge"
-           remote="PelionIoT"
-           revision="464e9d1ca9f4df7cf8d7108cd865dd380e2a7d48" />
+           remote="github"
+           revision="a821ef4f9e4637081f898736efc11b29109d0429" />
 
   <project name="meta-rust/meta-rust"
            path="layers/meta-rust"
