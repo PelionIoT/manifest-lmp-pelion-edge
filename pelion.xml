@@ -10,12 +10,12 @@
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="986690da919465cd2ab2057f20ecb482c1ed62a8" />
+           revision="dev" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="284cbcaa64d6576c5494691b3d80224f0bf80dfa" />
+           revision="dev" />
 
   <project name="meta-rust/meta-rust"
            path="layers/meta-rust"
