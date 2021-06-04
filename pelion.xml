@@ -10,7 +10,7 @@
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="dev" />
+           revision="enable-byoc-builds" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
