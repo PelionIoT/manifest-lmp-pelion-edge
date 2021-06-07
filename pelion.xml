@@ -15,7 +15,7 @@
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="add-edge-tool" />
+           revision="install-edge-tool" />
 
   <project name="meta-rust/meta-rust"
            path="layers/meta-rust"
