@@ -15,7 +15,7 @@
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="6b69e6099dbe772b608b76ae6108c0d94d27210c" />
+           revision="bdf1e874cbd60107f04c7fd02c1ad0d7cc0c028e" />
 
   <project name="meta-rust/meta-rust"
            path="layers/meta-rust"
