@@ -7,6 +7,10 @@
   <remote fetch="https://github.com/"
           name="github" />
 
+  <remote fetch="https://github.com/"
+          name="github2" />
+
+
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
