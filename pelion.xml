@@ -10,12 +10,12 @@
   <project name="meta-mbed-edge"
            path="layers/meta-mbed-edge"
            remote="PelionIoT"
-           revision="b48ce95a577d32945cb79823cbff3f085c508b97" />
+           revision="f4f53e6a4c17689d8ad209b7e7f8e8ada7ef08e3" />
 
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="63ca610157103aa29e48be35b978db4ca2778f31" />
+           revision="dd007300ba21d49efba0cc45f82903f526208dde" />
 
   <project name="meta-parsec"
            path="layers/meta-parsec"
