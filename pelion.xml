@@ -15,7 +15,7 @@
   <project name="meta-pelion-edge"
            path="layers/meta-pelion-edge"
            remote="PelionIoT"
-           revision="65211db816dff6380f45cd5217429f6b309e61ea" />
+           revision="7b72cb726bb6e7b6eae9a1abebab197b5239d95c" />
 
   <project name="meta-parsec"
            path="layers/meta-parsec"
